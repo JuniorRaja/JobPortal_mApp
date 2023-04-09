@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "ReactNative_JobSearchApp",
+    "slug": "ReactNative_JobSearchApp"
+  }
+}
