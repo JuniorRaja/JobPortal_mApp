@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   View,
   Text,
@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import styles from "./popularjobs.style";
-import { COLORS, icons, SIZES } from "../../../constants";
+import { COLORS, SIZES } from "../../../constants";
 import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 import useFetch from "../../../hook/useFetch";
 
@@ -19,6 +19,10 @@ const PopularJobs = () => {
     query: "React Developer",
     num_pages: 1,
   });
+
+  const [selectedJob, setSelectedJob] = useState();
+
+  const handleCardPress = () => {};
 
   //console.log(data);
   return (
