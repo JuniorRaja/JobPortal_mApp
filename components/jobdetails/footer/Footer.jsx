@@ -9,9 +9,9 @@ const Footer = ({ url }) => {
     <View style={styles.container}>
       <TouchableOpacity style={styles.likeBtn}>
         <Image
-          source={icon.hearticon}
+          source={icons.heartOutline}
           resizeMode="contain"
-          style={styles.likeBtn}
+          style={styles.likeBtnImage}
         />
       </TouchableOpacity>
 
@@ -19,7 +19,7 @@ const Footer = ({ url }) => {
         style={styles.applyBtn}
         onPress={() => Linking.openURL(url)}
       >
-        <Text style={styles.applyBtnText}>Apply</Text>
+        <Text style={styles.applyBtnText}>Apply Now</Text>
       </TouchableOpacity>
     </View>
   );
