@@ -5,6 +5,14 @@
       "bundler": "metro"
     },
     "name": "JobSearchApp",
-    "slug": "JobSearchApp"
+    "slug": "JobSearchApp",
+    "extra": {
+      "eas": {
+        "projectId": "8d23e302-102f-4f98-b576-a5aae39265f1"
+      }
+    },
+    "android": {
+      "package": "com.imprasannarajendran.JobSearchApp"
+    }
   }
 }
